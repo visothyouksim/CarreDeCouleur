@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var squareView: View
     private val moveDistance = 20
-    private val colors = listOf(Color.RED, Color.GREEN, Color.BLUE, Color.YELLOW, Color.CYAN, Color.MAGENTA)
+    private val colors = listOf(Color.RED, Color.GREEN, Color.BLUE, Color.YELLOW, Color.CYAN, Color.MAGENTA, Color.BLACK, Color.GRAY, Color.LTGRAY, Color.DKGRAY)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
